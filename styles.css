@@ -1,0 +1,154 @@
+
+body {
+    font-family: Verdana, Arial, serif; 
+    font-size: 11px; 
+    background-color: white; 
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    width: 750px; 
+    margin: 0 auto; 
+    position: relative;
+    background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/containerbackground.gif') repeat-y center; 
+}
+
+
+#extraDiv1 {
+    display: none;
+}
+
+#pageHeader h1 {
+    margin: 0;
+    height: 330px; 
+    background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/top.gif') no-repeat center center; 
+}
+
+
+#pageHeader h1 span {
+    display: none; 
+}
+
+#preamble, #explanation, #participation {
+    width: 389px; 
+    margin-left: 81px;
+    margin-bottom: 0px;
+    background-color: transparent; 
+    border: none;
+    padding-bottom: 10px;
+}
+
+
+#preamble p.p1, #explanation p.p1, #participation p.p1 {
+    padding: 0 15px;
+    line-height: 1.5;
+    text-align: justify; 
+}
+
+
+#preamble h3, #explanation h3, #participation h3 {
+    margin: 0 0 10px 0;
+    height: 40px; 
+}
+
+
+#preamble h3 span, #explanation h3 span, #participation h3 span {
+    display: none; 
+}
+
+
+#preamble h3 { background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/title1.gif') no-repeat left top; }
+#explanation h3 { background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/title2.gif') no-repeat left top; }
+#participation h3 { background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/title3.gif') no-repeat left top; }
+
+
+#participation ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+
+
+#quickSummary {
+    position: absolute;
+    top: 330px; 
+    right: 79px;
+    width: 192px;
+    background-color: transparent; 
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 45px; 
+    background-image: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/summary.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+#linkList {
+    position: absolute;
+    top: 450px; 
+    right: 78px;
+    width: 192px;
+}
+
+
+#lselect, #lresources {
+    background-color: transparent; 
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+
+#quickSummary p.p1, #lselect ul, #lresources ul {
+    padding: 0 15px;
+    line-height: 1.4;
+    margin: 10px 0 0 0;
+}
+
+
+#lselect h3, #lresources h3 {
+    margin: 0;
+    height: 40px; 
+}
+
+
+#lselect h3 span, #lresources h3 span {
+    display: none; 
+}
+
+
+#lselect h3 { background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/designs.gif') no-repeat left top; }
+#lresources h3 { background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/resources.gif') no-repeat left top; }
+
+
+#lselect ul, #lresources ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+#lselect li, #lresources li {
+    padding-left: 20px;
+    margin-bottom: 5px;
+    cursor: pointer; 
+}
+
+#lselect li {
+    background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/paperfolded.gif') no-repeat left center;
+}
+
+#lresources li {
+    background: url('https://uploads.onecompiler.io/44gb5unt3/44gb754x7/paper.gif') no-repeat left center;
+}
+
+
+a {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #8B0000;
+}
